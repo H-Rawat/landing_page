@@ -1,148 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    flex-direction: column;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .upper-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 15px;
 }
 
 .lower-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 150px;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 150px;
 }
 
 .right-links {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .left {
-    width: 400px;
+  width: 400px;
 }
 
 .img-1 {
-    width: 400px;
-    height: 200px;
+  width: 400px;
+  height: 200px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .main-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}   
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
 
 .secondary-text {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .left-links {
-    font-size: 24px;
-    color: #f9faf8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 button {
-    color: white;
-    background-color: #3882f6;
-    border-radius: 6px;
-    padding: 4px 12px;
-    margin-top: 5px;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin-top: 5px;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .card img {
-    width: 200px;
-    height: 150px;
-    border-radius: 8px;
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
 }
 
 .content-header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2967;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2967;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .content-cards {
-    display: flex;
-    gap: 20px;
-    padding-bottom: 50px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-quote {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    display: flex;
-    flex-direction: column;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: lighter;
-    font-style: italic;
-    padding: 100px 200px 0px 200px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 100px 200px 0px 200px;
 }
 
 .author {
-    align-self: flex-end;
-    font-weight: bold;
-    padding-right: 260px;
-    padding-bottom: 80px;
+  align-self: flex-end;
+  font-weight: bold;
+  padding-right: 260px;
+  padding-bottom: 80px;
 }
 
 .button {
-    background-color: #3882f6;
-    color: white;
-    display: flex;
-    margin: 80px 170px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    justify-content: space-around;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  margin: 80px 170px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-around;
 }
 
 .button button {
-    padding: 20px;
-    border: 1px solid white;
+  padding: 20px;
+  border: 1px solid white;
 }
 
 .footer {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-
